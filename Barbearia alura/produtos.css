@@ -1,11 +1,33 @@
 .cabecalho {
-    background-color: #ACA8A7;
+    background-color: #EAEAEA;
+    padding: 8px;
+}
+
+.caixa {
+    position:relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .imagem-cabecalho {
-    padding-left: 300px;
+    padding-left: 0px;
 }
 
-.itens-do-cabecalho {
-    padding-left: 300px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
