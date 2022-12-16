@@ -4,7 +4,7 @@
 }
 
 .caixa {
-    position:relative;
+    position: relative;
     width: 940px;
     margin: 0 auto;
 }
@@ -32,22 +32,44 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
 .produtos {
-    position:relative;
+    position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-.produtos li  {
+.produtos li {
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
     padding: 50px 0;
     /* background-color: blue; */
-    margin: 0 1.5%;
+    margin: 2% 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    /* border: 2px solid #000000; */
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: chocolate;
+}
+
+.produtos li:active {
+    border-color: cornflowerblue;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .produtos h2 {
@@ -64,4 +86,10 @@ nav a {
     font-size: 23px;
     font-weight: bold;
     margin-top: 8px;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/produtos/bg.jpg");
+    padding: 20px 0;
 }
